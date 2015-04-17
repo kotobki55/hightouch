@@ -1,0 +1,235 @@
+@charset "utf-8";
+* {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #999999;
+    background-image: url("images/bg.gif");
+    background-repeat: repeat;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 75%;
+    line-height: 1.6;
+}
+hr {
+    display: none;
+}
+a img {
+    border-style: none;
+}
+a:link {
+    color: #333333;
+    text-decoration: underline;
+}
+a:visited {
+    color: #999999;
+    text-decoration: underline;
+}
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+a:active {
+    left: 1px;
+    position: relative;
+    text-decoration: none;
+    top: 1px;
+}
+#wrapper {
+    background-color: #ffffff;
+    border-left: 1px solid #666666;
+    border-right: 1px solid #666666;
+    margin: 0 auto;
+    width: 858px;
+}
+#main {
+    float: right;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 858px;
+}
+#footer {
+    background-color: #333333;
+    clear: both;
+    color: #ffffff;
+    padding: 15px;
+}
+#header {
+    background-image: url("images/asabackground.png");
+    background-repeat: repeat-x;
+    border-top: 3px solid #ff6600;
+    height: 255px;
+    position: relative;
+}
+#header #logo {
+    left: 15px;
+    position: absolute;
+    top: 15px;
+}
+#main h2 {
+    background-image: url("images/bullet.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-bottom: 1px dotted #666666;
+    border-top: 3px solid #ff6600;
+    font-size: 100%;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 4px 0 4px 15px;
+}
+#main p {
+    line-height: 1.8;
+    margin-bottom: 1em;
+}
+#home #main h2 {
+    background-image: none;
+    border-style: none;
+    padding: 0;
+}
+#main dl#news dt {
+    background-image: url("images/bullet2.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    clear: left;
+    float: left;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding-left: 15px;
+    width: 5em;
+}
+#main dl#news dd {
+    margin: 0 0 10px;
+}
+#sidebar h2 {
+    margin-bottom: 15px;
+}
+#sidebar dl dt a {
+    border: 1px solid #cccccc;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+#sidebar dl dt a:hover {
+    border: 1px solid #000000;
+}
+#sidebar dl dt {
+    clear: both;
+}
+#sidebar dl dd {
+    margin-bottom: 10px;
+}
+#sidebar ul {
+    margin-top: 10px;
+}
+#sidebar ul li {
+    list-style: outside none none;
+    margin-bottom: 6px;
+}
+#sidebar ul li a {
+    background-image: url("images/arrow.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 15px;
+    width: 210px;
+}
+#sidebar ul li a:hover {
+    background-image: url("images/arrow_hover.gif");
+}
+#footer ul li a {
+    color: #cccccc;
+}
+#footer ul li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer p a {
+    color: #cccccc;
+}
+#footer p a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul li {
+    display: inline;
+    list-style: outside none none;
+    margin-right: 15px;
+}
+#footer p {
+    float: right;
+    margin: 0;
+}
+#main dl#faqList dt {
+    background-image: url("images/q.gif");
+    background-position: left top;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    padding-left: 25px;
+}
+#main dl#faqList dd {
+    background-image: url("images/a.gif");
+    background-position: left top;
+    background-repeat: no-repeat;
+    line-height: 1.8;
+    padding-bottom: 1em;
+    padding-left: 25px;
+}
+#main table {
+    border-collapse: collapse;
+    border-style: solid none none;
+    border-top: 1px solid #cccccc;
+    border-width: 1px 0 0;
+    margin-bottom: 15px;
+}
+#main table th {
+    border-bottom: 1px solid #cccccc;
+    padding: 5px 15px;
+    text-align: right;
+}
+#main table td {
+    border-bottom: 1px solid #cccccc;
+    padding: 5px 15px;
+}
+#main table tr.odd {
+    background-color: #efefef;
+}
+#main div.wk {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 170px;
+}
+#main div.wk h3 {
+    margin: 10px 0 5px;
+}
+#main div.wk h3 a {
+    border-left: 3px solid #999999;
+    display: block;
+    font-family: Vardana,Arial,Helvetica,sans-serif;
+    font-size: small;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-left: 7px;
+}
+#main div.wk img {
+    border: 1px solid #999999;
+}
+#main form {
+    margin-bottom: 25px;
+}
+#main input[type="text"], #main textarea {
+    border: 1px solid #999999;
+    padding: 2px;
+}
+#main form em {
+    color: #ff0000;
+    padding-left: 5px;
+}
+#main form textarea#comment {
+    height: 120px;
+    overflow: auto;
+    width: 300px;
+}
